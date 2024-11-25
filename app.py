@@ -51,3 +51,5 @@ def main():
 
         # Save the assistant's response to the chat history
         st.session_state.messages.append({"role": "assistant", "content": response})
+if __name__ == '__main__':
+    main()
